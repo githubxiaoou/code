@@ -52,7 +52,7 @@ import os, sys
 #         print("cannot open", infile)
 
 
-image1 = Image.open('touxiang.ppm')
+image1 = Image.open('assets/touxiang.ppm')
 box = (0, 0, 200, 200)
 region = image1.crop(box)
 region.show()
